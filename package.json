@@ -2,9 +2,8 @@
     "name": "linux-http-server",
     "version": "0.0.5",
     "description": "",
-    "main": "./bin/index.js",
     "bin": {
-        "linux-http-server": "./bin/index.js"
+        "linux-http-server": "./bin/index"
     },
     "keywords": [
         "Static",
