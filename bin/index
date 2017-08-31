@@ -25,7 +25,7 @@ var argv = require("minimist")(process.argv.slice(2), {
     string: ['port', 'hostname', 'fallback'],
     boolean: ['silent', 'log'],
     'default': {
-        'port': 8000,
+        'port': 10000,
         'dir': process.cwd()
     }
 });
@@ -33,9 +33,9 @@ var argv = require("minimist")(process.argv.slice(2), {
 if (argv.help) {
     console.log("Usage:");
     console.log("  rover --help // print help information");
-    console.log("  rover // 8000 as default port, current folder as root");
-    console.log("  rover 8888 // 8888 as port");
-    console.log("  rover -p 8989 // 8989 as port");
+    console.log("  rover // 10000 as default port, current folder as root");
+    console.log("  rover 10000 // 10000 as port");
+    console.log("  rover -p 10000 // 10000 as port");
     console.log("  rover -s // don't open browser");
     console.log("  rover -h localhost // localhost as hostname");
     console.log("  rover -d /home // /home as root");
