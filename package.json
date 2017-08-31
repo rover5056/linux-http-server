@@ -1,6 +1,6 @@
 {
     "name": "linux-http-server",
-    "version": "0.0.51",
+    "version": "0.0.6",
     "description": "",
     "bin": {
         "linux-http-server": "./bin/index"
