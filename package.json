@@ -23,9 +23,6 @@
         "type": "git",
         "url": "https://github.com/rover5056/linux-http-server.git"
     },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "author": "Rover",
     "license": "MIT"
 }
