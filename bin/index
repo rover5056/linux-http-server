@@ -97,14 +97,3 @@ http.createServer(app).listen(port, function() {
     var url = "http://" + hostname + port + '/';
     console.log("Running at " + url);
 });
-
-// var options = {
-//     key: fs.readFileSync(path.join(__dirname, '../keys', 'key.pem')),
-//     cert: fs.readFileSync(path.join(__dirname, '../keys', 'cert.pem'))
-// };
-
-// https.createServer(options, app).listen(secure, function() {
-//     secure = (secure != 80 ? ':' + secure : '');
-//     var url = "https://" + hostname + secure + '/';
-//     console.log("Also running at " + url);
-// });
