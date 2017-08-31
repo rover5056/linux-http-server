@@ -1,0 +1,32 @@
+{
+    "name": "linux-http-server",
+    "version": "1.0.2",
+    "description": "",
+    "main": "./bin/index.js",
+    "bin": {
+        "linux-http-server": "index.js"
+    },
+    "keywords": [
+        "Static",
+        "file",
+        "server",
+        "Assets"
+    ],
+    "dependencies": {
+        "connect": "3.1.1",
+        "connect-history-api-fallback": "^1.2.0",
+        "debug": "^2.2.0",
+        "minimist": "~0.1.0",
+        "serve-index": "1.2.0",
+        "serve-static": "1.5.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rover5056/linux-http-server.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Rover",
+    "license": "MIT"
+}
