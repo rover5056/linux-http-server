@@ -1,6 +1,6 @@
 {
     "name": "linux-http-server",
-    "version": "0.0.64",
+    "version": "0.0.65",
     "description": "",
     "bin": {
         "linux-http-server": "./bin/index"
@@ -9,7 +9,8 @@
         "Static",
         "file",
         "server",
-        "Assets"
+        "Linux",
+        "http"
     ],
     "dependencies": {
         "connect": "3.1.1",
