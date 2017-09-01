@@ -36,7 +36,6 @@ if (argv.help) {
     console.log("  rover // 10000 as default port, current folder as root");
     console.log("  rover 10000 // 10000 as port");
     console.log("  rover -p 10000 // 10000 as port");
-    console.log("  rover -s // don't open browser");
     console.log("  rover -h localhost // localhost as hostname");
     console.log("  rover -d /home // /home as root");
     console.log("  rover -l // print log");
@@ -81,13 +80,8 @@ if (argv.fallback !== undefined) {
 app.use(serveStatic(argv.dir, { 'index': ['index.html'] }));
 app.use(serveIndex(argv.dir, { 'icons': true }));
 
-// rover 8888
-// rover -p 8989
-// rover 8888 -s // silent
-// rover -h localhost
-// rover -d /home
+
 var port = parseInt(argv._[0] || argv.port, 10);
-var secure = port + 1;
 
 var hostname = argv.hostname || getIPAddress();
 

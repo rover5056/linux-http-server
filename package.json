@@ -1,6 +1,6 @@
 {
     "name": "linux-http-server",
-    "version": "0.0.63",
+    "version": "0.0.64",
     "description": "",
     "bin": {
         "linux-http-server": "./bin/index"
@@ -22,6 +22,9 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/rover5056/linux-http-server.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rover5056/linux-http-server/issues"
     },
     "author": "Rover",
     "license": "MIT"
